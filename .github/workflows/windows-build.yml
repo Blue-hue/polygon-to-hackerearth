@@ -28,7 +28,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --noconsole app.py
+        pyinstaller --onefile --noconsole --name tc_converter app.py
 
     - name: Upload EXE to GitHub Release
       uses: softprops/action-gh-release@v2
