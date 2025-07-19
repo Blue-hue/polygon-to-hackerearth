@@ -29,6 +29,9 @@ jobs:
     - name: Build EXE
       run: |
         pyinstaller --onefile --noconsole --name tc_converter app.py
+    
+    - name: List contents of dist folder
+      run: dir dist
 
     - name: Upload EXE to GitHub Release
       uses: softprops/action-gh-release@v2
