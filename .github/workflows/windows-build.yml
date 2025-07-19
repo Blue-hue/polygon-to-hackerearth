@@ -36,4 +36,4 @@ jobs:
       with:
         files: dist/tc_converter.exe
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GHPAT1 }}
