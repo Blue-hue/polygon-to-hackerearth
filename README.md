@@ -24,6 +24,3 @@ This is a simple Python GUI application that converts testcases downloaded from 
 ### ✅ Prerequisites
 
 Make sure Python 3.7+ is installed. Then install dependencies:
-
-```bash
-pip install -r requirements.txt
