@@ -35,5 +35,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: dist/tc_converter.exe
-      env:
-        GITHUB_TOKEN: ${{ secrets.GHPAT1 }}
+        token: ${{ secrets.GHPAT1 }}
