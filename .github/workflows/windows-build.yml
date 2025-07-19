@@ -1,8 +1,6 @@
 name: Build Windows Executable
 
 on:
-  release:
-    types: [published]
   push:
     tags:
       - 'v*'  # Only runs on version tags like v1.0.0
