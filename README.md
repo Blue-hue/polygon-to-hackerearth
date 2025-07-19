@@ -18,9 +18,3 @@ This is a simple Python GUI application that converts testcases downloaded from 
 - Optional `.exe` build using `PyInstaller`
 
 ---
-
-## 🏁 Getting Started
-
-### ✅ Prerequisites
-
-Make sure Python 3.7+ is installed. Then install dependencies:
